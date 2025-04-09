@@ -1,0 +1,74 @@
+/* static/admin/css/custom_admin.css */
+
+/* Apply Courier New font to everything */
+body, button, input, select, textarea {
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+/* Customize the header */
+#header {
+    background: #222222;
+    color: white;
+}
+
+/* Style the main navigation */
+.module h2, .module caption, .inline-group h2 {
+    background: #333333;
+}
+
+/* Style buttons to match your frontend */
+.button, input[type=submit], input[type=button], .submit-row input, a.button {
+    background: #222222;
+    color: white;
+}
+
+.button:hover, input[type=submit]:hover, input[type=button]:hover, .submit-row input:hover {
+    background: #444444;
+}
+
+/* Style links */
+a:link, a:visited {
+    color: #222222;
+}
+
+a:hover {
+    color: #444444;
+}
+
+/* Style the sidebar */
+.module h2, .module caption, .inline-group h2 {
+    background: #222222;
+}
+
+/* Style the breadcrumbs */
+div.breadcrumbs {
+    background: #333333;
+}
+
+/* Style the login form */
+.login .form-row #id_username, .login .form-row #id_password {
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+/* Style the admin dashboard */
+.dashboard .module table th {
+    background: white;
+}
+
+.dashboard .module table td a:link, .dashboard .module table td a:visited {
+    color: white;
+}
+
+/* Style the change form */
+.object-tools a:link, .object-tools a:visited {
+    background: #222222;
+}
+
+.object-tools a:hover {
+    background: #444444;
+}
+
+/* Style the admin site name */
+#site-name a {
+    color: white;
+}
