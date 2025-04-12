@@ -142,6 +142,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "https://www.agiemachiya.me",
+    "https://main.d22v5qep8n9rwy.amplifyapp.com",
 ]
 
 # For storing uploaded images
